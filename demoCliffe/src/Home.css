@@ -1,0 +1,203 @@
+.header__container{
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index: 1;
+}
+.city_desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  border-radius: 15px;
+  padding: 0 6px 0 20px;
+  cursor: pointer;
+  height: 42px;
+}
+.header__desktop__cart_option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 15px;
+  width: auto;
+  height: 48px;
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+}
+.header__desktop__options__icon__text {
+  color: #000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 14px;
+}
+.cartIcon {
+  font-size: 28px;
+  width: 1em;
+  height: 1em;
+}
+.header__location {
+  display: flex;
+  gap: 30px;
+}
+.header__desktop__option {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header__desktop {
+  padding: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  align-items: center;
+  margin: 0 20rem;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.header__desktop__subMenu__bookings__option {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  cursor: pointer;
+}
+.header__desktop__subMenu__call {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 14px;
+}
+.header__desktop__container {
+  width: 100%;
+  background: #f5f5f5;
+}
+.header__desktop__subMenu {
+  padding: 16px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f5f5f5;
+  margin: 0 20rem;
+  max-width: 1250px;
+}
+.header__desktop__subMenu__bookings {
+  display: flex;
+  column-gap: 80px;
+}
+.DesktopSearch_search__inputBox {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  width: 100%;
+  background: transparent;
+}
+.DesktopSearch_search {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* z-index: 1; */
+}
+.DesktopSearch_search__inputBox {
+  display: flex;
+  padding: 16px 20px;
+  border: 1px solid #d9d9d9;
+  box-shadow: 0 4px 10px hsla(0, 0%, 55%, 0.2);
+  border-radius: 15px;
+  width: 740px;
+  max-width: 90vw;
+  background: #fff;
+  align-items: center;
+  gap: 10px;
+}
+.inputDiv {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  width: 100%;
+  background: transparent;
+  border: none;
+}
+.TopSection_banner__options {
+  /* width: 740px;
+  margin: 20px auto auto;
+  gap: 20px;
+  display: flex; */
+  width: 100%;
+  gap: 20px;
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+}
+.TopSection_banner__option__icon {
+  background: linear-gradient(223.23deg, #ffffff -39.74%, #dbf5f9 94.44%);
+  width: 62px;
+  height: 62px;
+  /* padding: 16px; */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TopSection_banner__upload__option p {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.TopSection_banner__upload__option {
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 15px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  width: 100%;
+  text-decoration: none;
+  gap: 24px;
+}
+.TopSection_banner__input--desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+.TopSection_banner__container__inputsContainer__inputs {
+  width: fit-content;
+}
+
+.TopSection_banner__container__inputsContainer {
+  max-width: 1250px;
+  width: 100%;
+  margin-top: 134px;
+}
+.TopSection_banner__container{
+    /* background: url(https://staticcdn.redcliffelabs.com/media/gallary-file/None/2c02b983-4bee-43bd-a3c7-d89c32e9464a.webp); */
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px;
+    padding: 35px 0;
+}
