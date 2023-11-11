@@ -90,11 +90,11 @@ export const Home = () => {
         <img
           src={BackGroundImage}
           alt=""
-          style={{ width: "99%", position: "absolute",marginTop:"134px" }}
+          style={{ width: "100%", position: "absolute",marginTop:"125px",height:"345px" }}
         />
         <div className="TopSection_banner__container">
           <div className="TopSection_banner__container__inputsContainer">
-            <div className="TopSection_banner__container__inputsContainer__inputs" style={{margin:"0px 224px"}}>
+            <div className="TopSection_banner__container__inputsContainer__inputs">
               <div className="TopSection_banner__input--desktop">
                 <h1 style={{ position: "relative", color: "#fff" }}>
                   Looking for a test ?
