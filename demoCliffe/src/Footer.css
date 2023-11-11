@@ -17,7 +17,7 @@ body {
   flex-wrap: wrap;
 }
 
-.abc{
+.abc {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,7 +34,7 @@ ul li a {
   color: white;
   text-decoration: none !important;
 }
-.headings{
+.headings {
   font-weight: bold;
   font-size: 20px;
 }
@@ -60,12 +60,11 @@ ul li a {
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  color: white!important;
-  
+  color: white !important;
 }
 
-img{
-  color:white !important;
+img {
+  color: white !important;
 }
 
 .footer_section p {
@@ -79,7 +78,7 @@ img{
   gap: 12px !important;
 }
 
-.contact_row_location{
+.contact_row_location {
   display: flex;
   align-items: center;
   margin-bottom: 5px;
@@ -98,10 +97,8 @@ img{
   justify-content: center;
   align-items: center;
   font-size: 18px;
-  color: white!important;
-  
+  color: white !important;
 }
-
 
 .contact_row i {
   margin-right: 5px;
@@ -110,15 +107,15 @@ img{
 .pills {
   display: flex;
   justify-content: space-around !important;
-  align-items: baseline;
+  align-items: center;
   background-color: white;
   border-radius: 15px;
   padding: 5px 10px;
+  width: 20%;
 }
 .pills p {
   color: #0e3f6c;
-  
-
+  margin-top: 16px;
 }
 .pills button {
   background: #0e3f6c;
@@ -129,6 +126,7 @@ img{
   margin: 5px 0px;
   border: none;
   outline: none;
+  height: 38px;
 }
 
 .footer_bottem_section {
@@ -172,14 +170,14 @@ img{
     margin: 0px;
   }
 
-
   .pills {
     display: none;
   }
   .footer_section p {
     font-size: 14px;
     margin-bottom: 10px;
-  }.footer_bottem_section {
+  }
+  .footer_bottem_section {
     flex-direction: column;
     text-align: center;
   }
@@ -193,8 +191,7 @@ img{
   .mid_section {
     width: 100%;
   }
-.horizontals{
-  display: block !important;
-}
-
+  .horizontals {
+    display: block !important;
+  }
 }

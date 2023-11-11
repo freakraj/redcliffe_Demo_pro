@@ -2,6 +2,7 @@
 import './Footer.css';
 import RedcliffeIcon from '../src/assets/redcliffe.png'
 import QualityLogo from '../src/assets/quality-logo.png'
+import ShootingIcon from '../src/assets/shooting-icon.png'
 
 
 const Footer = () => {
@@ -67,7 +68,7 @@ const Footer = () => {
             <p>The Content on this websites is DMCA protected</p>
           </div>
           <div className="pills">
-            <img src="#" alt="logo" />
+            <img src={ShootingIcon} alt="logo" style={{width:"2em",height:"2em"}} />
             <p>Find a lab near me</p>
             <button>Locate Now</button>
           </div>
