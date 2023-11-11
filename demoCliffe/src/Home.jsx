@@ -11,6 +11,7 @@ import CallingIcon from "../src/assets/calling-icon.png";
 import UploadIcon from "../src/assets/Upload-new.png";
 import HelthPackage from "../src/assets/health-8.png";
 import BackGroundImage from "../src/assets/background-red.png";
+import VoiceSearch from "../src/assets/voice-search1.png";
 import Footer from "./Footer";
 import FrequentlyBook from './Booked.jsx';
 
@@ -110,7 +111,7 @@ export const Home = () => {
                       />
                     </form>
                     <div className="DesktopSearch_search__inputBox__crossIconContainer">
-                      <img src={CallingIcon} alt="" className="cartIcon" />
+                      <img src={VoiceSearch} alt="" className="cartIcon" />
                     </div>
                   </div>
                 </div>
